@@ -1,0 +1,70 @@
+
+{
+  "id": "/",
+  "short_name": "FlixMax",
+  "name": "FlixMax IPTV Streaming",
+  "description": "Assista a filmes, séries e TV ao vivo com o FlixMax. Uma experiência de streaming completa com suporte a listas XTream Codes, controle parental e player nativo otimizado.",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/777/777242.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/777/777242.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/777/777242.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://via.placeholder.com/1280x720/0f0f1a/ffffff?text=FlixMax+Desktop+Home",
+      "sizes": "1280x720",
+      "type": "image/jpg",
+      "form_factor": "wide",
+      "label": "Tela Inicial Desktop"
+    },
+    {
+      "src": "https://via.placeholder.com/720x1280/0f0f1a/ffffff?text=FlixMax+Mobile+Player",
+      "sizes": "720x1280",
+      "type": "image/jpg",
+      "form_factor": "narrow",
+      "label": "Player Mobile"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0f0f1a",
+  "background_color": "#0f0f1a",
+  "orientation": "portrait-primary",
+  "categories": ["entertainment", "movies", "tv", "video"],
+  "lang": "pt-BR",
+  "shortcuts": [
+    {
+      "name": "TV Ao Vivo",
+      "short_name": "Live TV",
+      "description": "Assistir canais ao vivo",
+      "url": "/?tab=live",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/777/777242.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Filmes",
+      "short_name": "Filmes",
+      "description": "Catálogo de filmes",
+      "url": "/?tab=movies",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/777/777242.png", "sizes": "192x192" }]
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "requestFramePermissions": []
+}

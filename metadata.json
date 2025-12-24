@@ -1,0 +1,5 @@
+{
+  "name": "FlixMax IPTV",
+  "description": "A Prime Video style streaming application integrating with XTream Codes IPTV API, featuring Live TV, VOD, and Series playback with a professional Clappr player.",
+  "requestFramePermissions": []
+}
